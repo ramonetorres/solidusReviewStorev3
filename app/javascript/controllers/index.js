@@ -5,4 +5,6 @@
 import { application } from "./application"
 
 import HelloController from "./hello_controller"
+import TopBarController from "./top_bar_controller"
 application.register("hello", HelloController)
+application.register("top-bar", TopBarController)
